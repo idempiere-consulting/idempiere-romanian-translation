@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!--Adempiere(r) Release 3.5.3a_2008-12-21 -Smart Suite ERP,CRM and SCM- (c) 1999-2007 Adempiere (r); Implementation: ADempiere - Supported by ADempiere community-->
-<!--<!DOCTYPE adempiereTrl PUBLIC "-//ComPiere, Inc.//DTD Adempiere Translation 1.0//EN" "http://www.adempiere.net/dtd/adempiereTrl.dtd">-->
-<adempiereTrl language="ro_RO" table="AD_Form">
+<!--iDempiere(r) Release 7.1_2019-11-22 -Smart Suite ERP, CRM and SCM- (c) 1999-2019 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community--><!--<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">--><idempiereTrl language="ro_RO" table="AD_Form">
  <row id="100" trl="Y">
   <value column="Name" original="Generate Invoices (manual)">Generare Facturi (manual)</value>
   <value column="Description" original="Select and generate invoices">Selectare şi generare facturi</value>
@@ -48,6 +46,11 @@ Selectează comenzile pentru care se vor genera facturile</value>
   <value column="Description" original="Match Purchase Orders, Receipts, Vendor Invoices">Corelare Comandă, Recepţie şi Factură Furnizor</value>
   <value column="Help" original="Make sure that the Receipts and Invoices are processed. If you want to match partial shipment, make sure that &quot;Same Quantity&quot; is not selected."> Asiguraţi-vă că Recpţiile şi Facturile sunt prelucrate. Dacă doriţi să potriviţi transportul parţial,  asiguraţi-vă că nu e selectată Aceeaşi Cantitate</value>
  </row>
+ <row id="109" trl="N">
+  <value column="Name" original="Translation Import/Export">Translation Import/Export</value>
+  <value column="Description" original="Import or Export Language Translation">Import or Export Language Translation</value>
+  <value column="Help" original="Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.">Export/Import Translation info to/from xml for translation in external tool. Please note that the Language MUST be an enabled and verified System Langage.</value>
+ </row>
  <row id="110" trl="Y">
   <value column="Name" original="Generate Shipments (manual)">Generare Expediţie (manual)</value>
   <value column="Description" original="Select and generate shipments">Selectează şi generează Expediţie</value>
@@ -62,13 +65,13 @@ Selectaţi comenzile pentru a genera expediţii pentru ele.</value>
  <row id="112" trl="Y">
   <value column="Name" original="Merge Entities">Fuziune Entităţi</value>
   <value column="Description" original="Merge From Entity to To Entity - Delete From">Fuziune 'Din  Entitate' cu 'În Entitate' -Şterge 'Din Entitate'</value>
-  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version.&#10;">&lt;i&gt;Periculos - Vă rog să fiţi conştient de ceea ce faceţi!&lt;/i&gt;
+  <value column="Help" original="&lt;i&gt;Dangerous - Please are aware of what you are doing!&lt;/i&gt;&#10;All instances of the From entity (e.g. Customer A) are changed to the To entity (e.g. Customer B). &#10;The From entity (e.g. Customer A) is deleted. &#10;&lt;p&gt;&lt;b&gt;There is NO undo nor trace !  Please do a backup first&lt;/b&gt; Please be aware that you may be changing history records (e.g. invoices, etc.) ! &lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Side effects:&lt;/b&gt; Merging Products are likely to distort product costs; Merging Business Partners may result in incorrect open item balance. Check with support on remedies.&lt;/p&gt;&#10;&lt;p&gt;&lt;b&gt;Restrictions:&lt;/b&gt; Accounting and Inventory conflicts are not resolved in this version.&lt;/p&gt;" xml:space="preserve"><![CDATA[<i>Periculos - Vă rog să fiţi conştient de ceea ce faceţi!</i>
 Totate instanţele din 'Din Entitate' (ex. Client A) se modifică în 'În Entitate' (ex. Client B). 
 'Din Entitate' (ex. Client A) se şterge. 
-&lt;p&gt;&lt;b&gt;NU există posibilitate de revenire nici de jurnalizare !  Vă rog să faceţi întâi o copie&lt;/b&gt; Vă rog să fiţi conştient că s-ar putea să modificaţi înregistrările de istoric (ex. facturi, etc.) ! &lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Efecte Secundare:&lt;/b&gt; Unind Produsele probabil modificaţi costurile produselor; Unind Parteneri poate să aibă drept rezultat o balanţă de articol deschis incorect.
-&lt;p&gt;&lt;b&gt;Restricţii:&lt;/b&gt; Conflictele de Contabilitate şi Stoc nu sunt rezolvate în această versiune.
-</value>
+<p><b>NU există posibilitate de revenire nici de jurnalizare !  Vă rog să faceţi întâi o copie</b> Vă rog să fiţi conştient că s-ar putea să modificaţi înregistrările de istoric (ex. facturi, etc.) ! </p>
+<p><b>Efecte Secundare:</b> Unind Produsele probabil modificaţi costurile produselor; Unind Parteneri poate să aibă drept rezultat o balanţă de articol deschis incorect.
+<p><b>Restricţii:</b> Conflictele de Contabilitate şi Stoc nu sunt rezolvate în această versiune.
+]]></value>
  </row>
  <row id="113" trl="Y">
   <value column="Name" original="POS">POS</value>
@@ -196,4 +199,83 @@ Finally a message box asks if you want to close the OM document, you should clic
   <value column="Description" original="Edit Manufacturing Workflows">Editor de rutări (flux tehnologic)</value>
   <value column="Help" original="Edit the graphical layout of manufacturing workflows">Editează prezentarea grafică a rutărilor</value>
  </row>
-</adempiereTrl>
+ <row id="53016" trl="N">
+  <value column="Name" original="Accounting Fact Reconcilation (manual)">Accounting Fact Reconcilation (manual)</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="53017" trl="N">
+  <value column="Name" original="BOM Viewer">BOM Viewer</value>
+  <value column="Description" original="Shows the parent-component relationship for the product entered in the Product field.">Shows the parent-component relationship for the product entered in the Product field.</value>
+  <value column="Help" original="Selecting a product will display a hierarchy of components and sub-BOMs for that product.&#13;&#10;&#13;&#10;Selecting the &quot;Where Used&quot; check box will display the BOMs that this product is used in.">Selecting a product will display a hierarchy of components and sub-BOMs for that product.&#13;
+&#13;
+Selecting the "Where Used" check box will display the BOMs that this product is used in.</value>
+ </row>
+ <row id="200000" trl="N">
+  <value column="Name" original="Setup Wizard">Setup Wizard</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200001" trl="N">
+  <value column="Name" original="Reset Password">Reset Password</value>
+  <value column="Description" original="Reset Password">Reset Password</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200002" trl="N">
+  <value column="Name" original="Report Wizard">Report Wizard</value>
+  <value column="Description" original="Report Wizard">Report Wizard</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200005" trl="N">
+  <value column="Name" original="Tab Editor">Tab Editor</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200006" trl="N">
+  <value column="Name" original="Bank Statement Create From Batch">Bank Statement Create From Batch</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200008" trl="N">
+  <value column="Name" original="Captured Process Parameter">Captured Process Parameter</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200009" trl="N">
+  <value column="Name" original="Compare Field Suggestion">Compare Field Suggestion</value>
+  <value column="Description" original="Review field changes for label, descriptipn and help">Review field changes for label, descriptipn and help</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200010" trl="N">
+  <value column="Name" original="Compare Context Help Suggestion">Compare Context Help Suggestion</value>
+  <value column="Description" original="Review changes for context help">Review changes for context help</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200011" trl="N">
+  <value column="Name" original="idempiereMonitor">idempiereMonitor</value>
+  <value column="Description" original="Form to configure access to /idempiereMonitor - do not add to menu">Form to configure access to /idempiereMonitor - do not add to menu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row id="200012" trl="N">
+  <value column="Name" original="Apache Felix Web Console">Apache Felix Web Console</value>
+  <value column="Description" original="Form to configure access to /osgi/system/console - do not add to menu">Form to configure access to /osgi/system/console - do not add to menu</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="edc059a8-4a80-475e-b643-223344bb6883">
+  <value column="Name" original="Console Insert Resource Attendance [ROC10]">Console Insert Resource Attendance [ROC10]</value>
+  <value column="Description" original="Console Insert Resource Attendance - #RESATT#IC">Console Insert Resource Attendance - #RESATT#IC</value>
+  <value column="Help" original=""/>
+ </row>
+ <row trl="N" uuid="4becce62-2dc6-492f-af0c-010c735f1f9c">
+  <value column="Name" original="BOM Viewer Advanced">BOM Viewer Advanced</value>
+  <value column="Description" original="Shows the parent-component relationship for the product entered in the Product field.">Shows the parent-component relationship for the product entered in the Product field.</value>
+  <value column="Help" original="Selecting a product will display a hierarchy of components and sub-BOMs for that product.&#13;&#10;&#13;&#10;Selecting the &quot;Where Used&quot; check box will display the BOMs that this product is used in.">Selecting a product will display a hierarchy of components and sub-BOMs for that product.&#13;
+&#13;
+Selecting the "Where Used" check box will display the BOMs that this product is used in.</value>
+ </row>
+ <row trl="N" uuid="7cbb483d-2580-4930-8a29-646c9fe5c011">
+  <value column="Name" original="Attribute Set Adjustment [RL13]">Attribute Set Adjustment [RL13]</value>
+  <value column="Description" original=""/>
+  <value column="Help" original=""/>
+ </row>
+</idempiereTrl>
